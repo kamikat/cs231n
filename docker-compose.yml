@@ -1,0 +1,9 @@
+notebook:
+  image: jupyter/scipy-notebook
+  environment:
+    - NB_USER=jovyan
+    - NB_UID=
+  ports:
+    - "8888:8888"
+  volumes:
+    - .:/home/jovyan/work
